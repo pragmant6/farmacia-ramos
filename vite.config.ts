@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://pragmant6.github.io/farmacia-ramos/",
+  base: '/farmacia-ramos/',
   plugins: [
     react(),
     tailwindcss(),
