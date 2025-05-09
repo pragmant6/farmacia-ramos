@@ -8,22 +8,22 @@ import {
 
 const routerBrowser = [
 	{
-		path: '/',
+		path: '', // 👈 esto sirve como "index route"
 		name: 'Home',
 		element: <HomeScreen />,
 	},
 	{
-		path: '/products',
+		path: 'products',
 		name: 'Products',
 		element: <ProductScreen />,
 	},
 	{
-		path: '/catalogs',
+		path: 'catalogs',
 		name: 'Catalogs',
 		element: <CatalogScreen />,
 	},
 	{
-		path: '/orders',
+		path: 'orders',
 		name: 'Orders',
 		element: <OrdersScreen />,
 	},
