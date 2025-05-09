@@ -3,7 +3,7 @@ import { Column } from 'primereact/column';
 
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ProductService } from './ProductService';
 import { CustomTable, MainContainer } from '../../components';
 import { IProduct } from '../../Interfaces/Dtos';
@@ -22,15 +22,15 @@ export const ProductScreen = () => {
 		});
 	};
 
-	const imageBodyTemplate = (product: IProduct) => {
-		return (
-			<img
-				src={`https://primefaces.org/cdn/primereact/images/product/${product.image}`}
-				alt={product.image}
-				className='w-2 shadow-2 border-round'
-			/>
-		);
-	};
+	// const imageBodyTemplate = (product: IProduct) => {
+	// 	return (
+	// 		<img
+	// 			src={`https://primefaces.org/cdn/primereact/images/product/${product.image}`}
+	// 			alt={product.image}
+	// 			className='w-2 shadow-2 border-round'
+	// 		/>
+	// 	);
+	// };
 
 	const priceBodyTemplate = (product: IProduct) => {
 		return formatCurrency(product.price);

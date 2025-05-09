@@ -1,4 +1,3 @@
-import React from 'react';
 import { useCart } from '../../Context/Cart/CartContext';
 export const OrdersScreen = () => {
 	const { state } = useCart();

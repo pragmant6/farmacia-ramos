@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { IProduct } from '../../Interfaces/Dtos';
 import { ProductService } from '../Products/ProductService';
 import { useCart } from '../../Context/Cart/CartContext';

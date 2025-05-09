@@ -1,4 +1,4 @@
-import React, { ReactNode, ComponentType } from 'react';
+import { ReactNode, ComponentType } from 'react';
 
 type ProviderProps = {
 	children: ReactNode;

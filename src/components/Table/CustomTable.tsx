@@ -1,5 +1,5 @@
 import React, { useState, ReactNode, CSSProperties } from 'react';
-import { DataTable, DataTableSortMeta } from 'primereact/datatable';
+import { DataTable } from 'primereact/datatable';
 
 // import {
 // 	DEFAULT_PAGE,
