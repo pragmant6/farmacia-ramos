@@ -7,7 +7,7 @@ import Providers from './Providers/index.context';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/farmacia-ramos'>
 			<Providers>
 				<Routes>
 					<Route path='/' element={<MainLayout />}>
